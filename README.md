@@ -1,10 +1,10 @@
-#**LIRI Bot**
+**LIRI Bot**
 
 LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
-##**concert-this**
+**concert-this**
 
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
@@ -15,7 +15,7 @@ Date of the Event
 Bands with two words such as Imagine Dragons, should be entered as one word with no spaces
 Example: node liri.js concert-this imaginedragons
 
-##**spotify-this-song**
+**spotify-this-song**
 
 This will show the following information about the song in your terminal/bash window:
 Artist(s)
@@ -29,7 +29,7 @@ If no song is provided then the program will default to "The Sign" by Ace of Bas
 Songs with more than word such as Whatever it Takes, should be entered with dashes instead of spaces.
 Example: node liri.js spotify-this-song whatever-it-takes
 
-##**movie-this**
+**movie-this**
 This will output the following information to your terminal/bash window:
 Title of the movie
 Year the movie came out
@@ -47,7 +47,7 @@ If the user doesn't type a movie in, the program will output data for the movie 
 Movies with more than one word such as Independence Day, should be entered with dashes instead of spaces
 Ex. node liri.js movie-this independence-day
 
-##**do-what-it-says**
+**do-what-it-says**
 
 Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
 
